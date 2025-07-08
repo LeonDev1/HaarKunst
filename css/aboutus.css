@@ -1,0 +1,35 @@
+#über-uns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 150px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.aboutus-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 300px;
+}
+
+.aboutus-container img {
+  height: 500px;
+  width: auto;
+}
+
+.aboutus-textblock {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+  gap: 10px;
+  width: 560px;
+}
+
+.aboutus-text {
+  margin-top: 40px;
+}

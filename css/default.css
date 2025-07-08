@@ -1,0 +1,110 @@
+@font-face {
+  font-family: "PlayfairSemiBold";
+  src: url(../font/Playfair_9pt-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "MontserratSemiBold";
+  src: url(../font/Montserrat-SemiBold.ttf);
+}
+
+:root {
+  --primary-color: #ddc6be;
+  --secondary-color: #6c380e;
+  --text-color: #3f3e3a;
+  --background-color: #fffef9;
+}
+
+h1 {
+  color: var(--text-color);
+  font-family: "PlayfairBold";
+  font-size: 51px;
+}
+
+h2 {
+  color: var(--text-color);
+  font-family: "MontserratSemiBold";
+  font-size: 40px;
+}
+
+p {
+  color: var(--text-color);
+  font-family: "MontserratSemiBold";
+  font-size: 30px;
+}
+
+button {
+  border: none;
+  background: var(--secondary-color);
+  padding: 7px;
+  border-radius: 5px;
+  color: var(--background-color);
+  font-family: "MontserratSemiBold";
+  font-size: 27px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--background-color);
+}
+
+/* Half Screen */
+@media (max-width: 1600px) {
+  h1 {
+    font-size: 41px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  button {
+    font-size: 17px;
+  }
+
+  .results-button {
+    margin-top: 15px;
+  }
+
+  #services {
+    margin-top: 40px;
+  }
+
+  .service {
+    width: 300px;
+    height: 450px;
+  }
+
+  .service img {
+    height: 150px;
+    width: auto;
+  }
+
+  #über-uns {
+    gap: 100px;
+  }
+
+  .aboutus-container img {
+    height: 300px;
+  }
+
+  .aboutus-container {
+    gap: 80px;
+  }
+
+  .aboutus-textblock {
+    width: 380px;
+  }
+
+  .aboutus-text {
+    margin-top: 20px;
+  }
+}
