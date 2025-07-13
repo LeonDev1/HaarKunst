@@ -1,0 +1,33 @@
+#preise {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+  height: auto;
+  width: 100%;
+  /* margin-top: 100px; */
+  padding: 100px 0 150px 0;
+}
+
+table {
+  margin-top: 10px;
+  font-family: "MontserratSemiBold";
+  border-collapse: collapse;
+  width: 50%;
+}
+
+td,
+th {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: var(--primary-color);
+}
+
+.text {
+  font-size: 10px;
+}
+
+/* background-color: #dddddd: */

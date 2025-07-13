@@ -38,6 +38,10 @@
   width: 100%;
   gap: 20px;
 }
+.navbar a {
+  text-decoration: none;
+  color: var(--text-color);
+}
 
 .results-button {
   margin-top: 20px;

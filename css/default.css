@@ -10,9 +10,19 @@
 
 :root {
   --primary-color: #ddc6be;
+  --primary-color-transparent: #ddc6beb9;
   --secondary-color: #6c380e;
   --text-color: #3f3e3a;
   --background-color: #fffef9;
+  scroll-behavior: smooth;
+}
+
+section[id] {
+  scroll-margin-top: 100px;
+}
+
+footer {
+  scroll-margin-top: 100px;
 }
 
 h1 {
@@ -106,5 +116,14 @@ body {
 
   .aboutus-text {
     margin-top: 20px;
+  }
+
+  .results-images {
+    transform: scale(1);
+    transform-origin: top;
+  }
+
+  #ergebnisse {
+    padding-bottom: 20px;
   }
 }

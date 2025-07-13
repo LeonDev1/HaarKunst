@@ -1,0 +1,23 @@
+#impressum {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  height: auto;
+  width: 100%;
+  padding: 20px 0 40px 0;
+}
+
+#impressum p,
+h2 {
+  width: 80%;
+  text-align: center;
+}
+
+.signature {
+  font-size: 16px;
+}
+
+.signature a {
+  color: var(--text-color);
+}
