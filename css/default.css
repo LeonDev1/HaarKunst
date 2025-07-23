@@ -28,19 +28,25 @@ footer {
 h1 {
   color: var(--text-color);
   font-family: "PlayfairBold";
-  font-size: 51px;
+  font-size: 40px;
 }
 
 h2 {
   color: var(--text-color);
   font-family: "MontserratSemiBold";
-  font-size: 40px;
+  font-size: 32px;
+}
+
+h3 {
+  color: var(--text-color);
+  font-family: "MontserratSemiBold";
+  font-size: 32px;
 }
 
 p {
   color: var(--text-color);
   font-family: "MontserratSemiBold";
-  font-size: 30px;
+  font-size: 20px;
 }
 
 button {
@@ -50,7 +56,7 @@ button {
   border-radius: 5px;
   color: var(--background-color);
   font-family: "MontserratSemiBold";
-  font-size: 27px;
+  font-size: 18px;
 }
 
 * {
@@ -60,70 +66,4 @@ button {
 
 body {
   background: var(--background-color);
-}
-
-/* Half Screen */
-@media (max-width: 1600px) {
-  h1 {
-    font-size: 41px;
-  }
-
-  h2 {
-    font-size: 30px;
-  }
-
-  p {
-    font-size: 20px;
-  }
-
-  button {
-    font-size: 17px;
-  }
-
-  .results-button {
-    margin-top: 15px;
-  }
-
-  #services {
-    margin-top: 40px;
-  }
-
-  .service {
-    width: 300px;
-    height: 450px;
-  }
-
-  .service img {
-    height: 150px;
-    width: auto;
-  }
-
-  #über-uns {
-    gap: 100px;
-  }
-
-  .aboutus-container img {
-    height: 300px;
-  }
-
-  .aboutus-container {
-    gap: 80px;
-  }
-
-  .aboutus-textblock {
-    width: 380px;
-  }
-
-  .aboutus-text {
-    margin-top: 20px;
-  }
-
-  .results-images {
-    transform: scale(1);
-    transform-origin: top;
-  }
-
-  #ergebnisse {
-    padding-bottom: 20px;
-  }
 }

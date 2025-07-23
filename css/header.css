@@ -8,6 +8,7 @@
 
 #header img {
   width: 80%;
+  max-width: 1200px;
   height: auto;
   margin-top: 10px;
 }
